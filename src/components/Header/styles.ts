@@ -17,6 +17,8 @@ export const Container = styled.div<ContainerProps>`
     justify-content: space-between;
 
     nav {
+      display: flex;
+
       a {
         color: #fff;
         text-decoration: none;
@@ -29,6 +31,13 @@ export const Container = styled.div<ContainerProps>`
 
         &:hover {
           opacity: 0.6;
+        }
+
+        div {
+          width: 73px;
+          height: 2px;
+          background: #ff872c;
+          margin-top: 10px;
         }
       }
     }
